@@ -1,4 +1,4 @@
 baseURL = "https://EbooksBR.github.io/ebooks-store/"
 languageCode = 'pt-br'
 title = 'LeituraBR'
-theme = "ananke"
+# theme = "ananke"
