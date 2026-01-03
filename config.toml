@@ -1,1 +1,23 @@
+baseURL = "https://ebooksbr.github.io/ebooks-store/"
+languageCode = "pt-br"
+title = "LeituraBR"
+theme = ""
+paginate = 5
 
+[params]
+    description = "Ebooks práticos e soluções jurídicas para o dia a dia."
+    logo = "/img/logo.svg"
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "Informativo"
+        url = "/informativo/"
+        weight = 2
+    [[menu.main]]
+        name = "Contato"
+        url = "/contato/"
+        weight = 3
