@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html>
-<head>...</head>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>{{ .Site.Title }}</title>
+</head>
 <body>
     {{ partial "header.html" . }}
-    {{ .Content }}
+    <main>
+        {{ .Content }}
+    </main>
 </body>
 </html>
