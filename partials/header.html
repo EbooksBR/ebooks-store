@@ -1,9 +1,51 @@
 <header class="site-header">
     <div class="logo">
         <a href="/">
-            <!-- Coloque o código SVG do logo aqui -->
-            <svg width="520" height="140" viewBox="0 0 520 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MELO LIMA - Soluções Práticas">
-                <!-- ... conteúdo SVG completo ... -->
+            <svg width="300" height="80" viewBox="0 0 520 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MELO LIMA - Soluções Práticas">
+                <defs>
+                    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stop-color="#C9A24D"/>
+                        <stop offset="100%" stop-color="#E6C36A"/>
+                    </linearGradient>
+                    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#0E2A47"/>
+                        <stop offset="100%" stop-color="#1F4E79"/>
+                    </linearGradient>
+                </defs>
+
+                <g transform="translate(0,20)">
+                    <rect x="20" y="40" width="18" height="50" fill="url(#blueGradient)" rx="2"/>
+                    <rect x="44" y="25" width="18" height="65" fill="url(#blueGradient)" rx="2"/>
+                    <rect x="68" y="10" width="18" height="80" fill="url(#blueGradient)" rx="2"/>
+
+                    <path d="M15 95 C45 120, 95 120, 115 80"
+                          stroke="url(#goldGradient)"
+                          stroke-width="8"
+                          fill="none"
+                          stroke-linecap="round"/>
+                </g>
+
+                <text x="150" y="65"
+                      font-family="Montserrat, Arial, sans-serif"
+                      font-size="42"
+                      font-weight="700"
+                      fill="#0E2A47"
+                      letter-spacing="2">
+                    MELO<tspan fill="#C9A24D">•</tspan>LIMA
+                </text>
+
+                <line x1="150" y1="78" x2="470" y2="78"
+                      stroke="url(#goldGradient)"
+                      stroke-width="3"/>
+
+                <text x="150" y="110"
+                      font-family="Montserrat, Arial, sans-serif"
+                      font-size="20"
+                      font-weight="500"
+                      fill="#0E2A47"
+                      letter-spacing="3">
+                    SOLUÇÕES PRÁTICAS
+                </text>
             </svg>
         </a>
     </div>
